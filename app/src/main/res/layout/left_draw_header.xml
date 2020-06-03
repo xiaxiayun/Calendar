@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_header" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity=""
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/nuuneoi"
+        android:id="@+id/imageView"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="Werb Calendar"
+        android:textSize="15sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:id="@+id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+
+
